@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:500;700&display=swap');
+body{
+   font-family:"Lobster" ;
+   font-weight: 500;
+}
+[class*="__container"]{
+   text-align: center;
+}
+span{
+  color: red ;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h1{
+  font-family: "Pacifico";
+  font-weight: 500;
+  font-size: 70px;
+  color: green;
+}
+h2{
+  font-family: "Preciosa";
+  font-size: 50px;
+  color: fuchsia;
+}
+.fonts{
+   font-family:"Lobster" ;
+   font-weight: 800; 
+   letter-spacing: 5px;
+   font-size: 30px;
+   text-decoration: line-through;
+   color: royalblue;
+}
+.content{
+   font-family: "Preciosa"; 
+   font-size: 40px;
+   color: darkturquoise;
+}
+.list,
+.link{
+   font-family: "Pacifico";
+   text-decoration: underline;
+   color: red;
+}
+.main__text{
+   font-family: "Preciosa";
+}
+.main__text-second{
+   font-family: "Ancient Kyiv";
+   font-size: 30px;
+   text-align: justify;
+   letter-spacing: 3px;
+}
+.main__text-third,
+.main__text-seventh{
+   font-family: "Adventure";
+   font-size: 20px;
+   text-align: left;
+}
+.main__text-fourth,
+.main__text-tenth > p{
+   font-family: "ComforterBrush";
+   line-height: 1.8;
+   font-size: 30px;
+}
+.main__text-fifth{
+   word-spacing: 20px;
+   line-height: 1.8;
+   text-decoration: overline;
+}
+.main__text-sixth >p{
+   font-family: "Playfair Display";
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: 5px;
+   text-shadow: 3px 2px 5px green;
+}
+.main__text-eighth{
+   font-family: "Preciosa"; 
+   font-size: 20px;
+   text-align: right;
+}
+.capitalize{
+   font-family: "Ancient Kyiv";
+   line-height: 1.9;
+   letter-spacing: 2px;
+}
+.capitalize ~ p{
+   font-family:"Playfair Display";
+   font-weight: 700;
+   text-transform: capitalize;
+   line-height: 1.6;
+   color: aqua;
+}
+.main__text-tenth{
+   text-decoration: line-through;
+}
